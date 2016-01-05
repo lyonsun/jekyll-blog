@@ -3,7 +3,7 @@ title: LYON SUN
 email: sunly917@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   吾生有涯而知无涯
-baseurl: "/b-log" # the subpath of your site, e.g. /blog/
+baseurl: "/jekyll-blog" # the subpath of your site, e.g. /blog/
 url: "http://lyonsun.github.io" # the base hostname & protocol for your site
 twitter_username: sunly
 github_username:  lyonsun
