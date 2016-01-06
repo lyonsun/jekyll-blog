@@ -11,3 +11,5 @@ github_username:  lyonsun
 # Build settings
 markdown: redcarpet
 highlighter: pygments
+gems: ['jekyll-paginate']
+paginate: 1
