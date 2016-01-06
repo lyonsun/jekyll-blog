@@ -4,20 +4,22 @@ title: About
 permalink: /about/
 ---
 
-**Lyon Sun**
+![Me](https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/1d0/17c/031ab34.jpg)
+
+Lyon Sun.
 
 Borned in Hunan, China.
 
+Located in Lahti, Finland.
+
 Lived since 1986.
 
-Coded since 2012.
-
-Located in Lahti, Finland.
+Coded since 2007.
 
 Workable both in front end and back end. 
 
-Perferable with PHP, Golang, Ruby, Swift and Javascript.
+Preferable with `PHP`, `Golang`, `Ruby`, `Swift` and `Javascript`.
 
-loving reading, playing chess, fishing, photographing, and any sports.
+Loving `reading`, `playing chess`, `fishing`, `photographing`, and any `sports`.
 
 Available for work and talk. ;)
