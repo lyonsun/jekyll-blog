@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-![Me](https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/1d0/17c/031ab34.jpg)
+![Me](/assets/images/031ab34.jpg)
+
+
 
 Lyon Sun.
 
