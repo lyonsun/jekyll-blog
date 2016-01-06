@@ -9,4 +9,5 @@ twitter_username: sunly
 github_username:  lyonsun
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments

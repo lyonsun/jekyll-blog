@@ -31,6 +31,8 @@ At the time of writing, I still have no idea what went wrong.
 
 This is odd too... I carefully followed the tutorial on book *Getting Started with Magento Extension Development*. It was quite simple an extension. Actually code is only one line in an action method inside a class: 
 
+```php
+
     <?php 
 
     class Foggyline_HappyHour_HelloController extends Mage_Core_Controller_Front_Action
@@ -41,6 +43,8 @@ This is odd too... I carefully followed the tutorial on book *Getting Started wi
         }
     }
     
+```
+
 Nothing funcy. But when I navigate to [http://localhost:8888/magento/happyhour/hello/helloWorld](http://localhost:8888/magento/happyhour/hello/helloWorld) as I've been told to, I get 404 response. 
 
 Then when I go to admin area, and navigate to **System > Configuration > Advanced > Advanced**, and save configuration, I see magic **Hello World** message after a refresh on frontend. 

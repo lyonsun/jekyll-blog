@@ -18,6 +18,7 @@ categories:
 
 首先，需要写一小段VBScript代码：
 
+```basic
 	' VBS script to send HTTP POST request to a URL.
 	' author: Lyon Sun <sunly917@gmail.com>
 	' last modified: 2015-03-03 14:07:31
@@ -55,6 +56,7 @@ categories:
 		End If
 
 	End Function
+```
 
 存储这段代码在磁盘的任何位置，如桌面。
 
