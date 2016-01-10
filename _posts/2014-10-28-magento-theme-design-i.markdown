@@ -3,7 +3,7 @@ layout: post
 title: "magento theme design - I"
 date: 2014-10-28 21:44:42 +0800
 comments: true
-categories: [magento, theme, learning]
+categories: [php, magento, theme]
 
 ---
 
@@ -24,7 +24,7 @@ categories: [magento, theme, learning]
 	- **app/design/frontend/demotheme/default/template**;
 	- **app/design/frontend/demotheme/default/layout**;
 	- **app/design/frontend/demotheme/default/locale**;
-	
+
 在skin文件夹下面创建模版文件夹：
 
 1. 创建文件夹**skin/frontend/demotheme**;
@@ -34,7 +34,7 @@ categories: [magento, theme, learning]
 	- **skin/frontend/demotheme/default/css**;
 	- **skin/frontend/demotheme/default/images**;
 	- **skin/frontend/demotheme/default/js**;
-	
+
 ### Magento模版设计第二步：创建必要文件
 
 Magento的模版设计，可以通过直接创建空白文件开始，也可以通过复制base模版里面的文件来开始。后者是更容易上手的一个方式。
@@ -55,7 +55,7 @@ Magento的模版设计，可以通过直接创建空白文件开始，也可以�
 
 	<?xml version="1.0"?>
 
-	<!-- 
+	<!--
 	/**
  	* local.xml
  	* Local layout modifications for our local theme
@@ -67,12 +67,12 @@ Magento的模版设计，可以通过直接创建空白文件开始，也可以�
 
 	<layout version="0.1.0">
     	<default>
-        
+
 	    </default>
 	</layout>
-	
+
 ```
-	
+
 ### Magento模版设计第三步：禁用缓存
 
 为了避免开发过程中的不连续性，有必要将Magento的缓存系统禁用。
@@ -92,12 +92,3 @@ Magento的模版设计，可以通过直接创建空白文件开始，也可以�
 ## 尾
 
 至此，Magento模版开发的准备工作就绪。这时，打开Magento的前台界面，会发现页面已经没有任何设计风格了。这就为我们之后开始定制模版铺好了道路。
-
-	
-
-
-
-
-
-
-	
