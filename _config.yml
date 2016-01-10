@@ -5,11 +5,17 @@ description: > # this means to ignore newlines until "baseurl:"
   吾生有涯而知无涯
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lyonsun.github.io" # the base hostname & protocol for your site
+
+# Gem settings
+gems: [jekyll-paginate]
+
+# Social settings
 twitter_username: sunly
+linkedin_username: lyonsun7
 github_username:  lyonsun
+disqus_shortname:  lyonsun
 
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-gems: ['jekyll-paginate']
 paginate: 1
