@@ -4,11 +4,12 @@ title: "Do a backup, whenever possible!"
 date: 2014-10-09 13:58:22 +0800
 comments: false
 categories: [code, life]
+published: false
 ---
 
 ## 序
 
-I never thought it would be so much pain when something get lost. 
+I never thought it would be so much pain when something get lost.
 
 生活中总是会出现这样那样的情况，很多时候它们突如其来，并不会给你机会去做任何准备，或者说已经提前给了你做准备的机会，只不过你没有用心体会，没有留意它的稍纵易逝。
 
