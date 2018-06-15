@@ -16,6 +16,6 @@ github_username:  lyonsun
 disqus_shortname:  lyonsun
 
 # Build settings
-markdown: redcarpet
+# markdown: redcarpet
 highlighter: rouge
 paginate: 1
