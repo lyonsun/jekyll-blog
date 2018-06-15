@@ -17,5 +17,5 @@ disqus_shortname:  lyonsun
 
 # Build settings
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 paginate: 1
