@@ -1,6 +1,7 @@
 <footer class="site-footer">
 
   <div class="wrapper">
+    <h3 class="text">{{ site.description }}</h3>
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
@@ -42,7 +43,20 @@
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+        <ul class="link-list">
+          <li>
+            <i class="fa fa-archive"></i>
+            <a class="page-link" href="{{ "/archives" | prepend: site.baseurl }}">Archives</a>
+          </li>
+          <li>
+            <i class="fa fa-link"></i>
+            <a class="page-link" target="_blank" href="{{ "/ME-learning-diary" | prepend: site.url }}">MEng Diary</a>
+          </li>
+          <li>
+            <i class="fa fa-file"></i>
+            <a class="page-link" target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+          </li>
+        </ul>
       </div>
     </div>
 

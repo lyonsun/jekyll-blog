@@ -10,7 +10,7 @@ url: "http://lyonsun.github.io" # the base hostname & protocol for your site
 plugins: [jekyll-paginate]
 
 # Social settings
-twitter_username: sunly
+twitter_username: lyonsun7
 linkedin_username: lyonsun7
 github_username:  lyonsun
 disqus_shortname:  lyonsun
