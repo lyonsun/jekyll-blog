@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lyonsun.github.io" # the base hostname & protocol for your site
 
 # Gem settings
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Social settings
 twitter_username: sunly
