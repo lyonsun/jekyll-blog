@@ -8,20 +8,20 @@ permalink: /about/
 
 
 
-Lyon Sun.
+Lyon Sun
+
+Lived since 1986.
+
+Coded since 2007.
 
 Borned in Hunan, China.
 
 Located in Espoo, Finland.
 
-Lived since 1986.
-
-Coded since 2007.
+Available for work and talk. ;)
 
 Workable both in front end and back end.
 
 Preferable with `PHP`, `Golang`, `Ruby`, `Swift` and `Javascript`.
 
 Loving `reading`, `playing chess`, `fishing`, `photographing`, and any `sports`.
-
-Available for work and talk. ;)
