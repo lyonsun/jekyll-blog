@@ -1,10 +1,7 @@
 ---
 layout: post
-title: 
-date: 
 comments: true
 published: false
-categories: 
 ---
 
 ## 三家分晋
