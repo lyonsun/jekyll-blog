@@ -6,8 +6,6 @@ permalink: /about/
 
 ![Me](/assets/images/031ab34.jpg)
 
-
-
 Lyon Sun
 
 Lived since 1986.
