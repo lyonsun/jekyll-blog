@@ -19,5 +19,3 @@ disqus_shortname:  lyonsun
 # markdown: redcarpet
 highlighter: rouge
 paginate: 1
-
-theme: jekyll-theme-hacker

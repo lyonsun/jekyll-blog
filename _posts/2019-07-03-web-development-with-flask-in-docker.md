@@ -1,9 +1,11 @@
 ---
 layout: post
-title: 使用Flask在Docker中做WEB开发 / 第一部分
-date: 2019-07-03T20:37:28Z
+title: 在Docker中使用Flask进行WEB开发-1
+date: 2019-07-03T23:37:28+03:00
 comments: true
 published: true
+categories: [python]
+tags: [python, flask, docker]
 ---
 
 ## 序言

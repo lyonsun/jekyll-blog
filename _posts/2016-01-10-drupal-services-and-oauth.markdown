@@ -6,25 +6,27 @@ comments: true
 categories: [php, drupal]
 ---
 
-# 序
+## 序
 
 公司有个项目是基于Drupal框架搭建的，最近新的需求里面要求外部程序能够利用该项目里的功能资源。很显然，需要构造并允许RESTful API请求。Drupal开源项目里的Services模块能够很好地实现这一需求。
 
-# 文
+## 文
 
-## Services模块
+### Services模块
 
 > A standardized solution for building API's so that external clients can communicate with Drupal. Out of the box it aims to support anything Drupal Core supports and provides a code level API for other modules to expose their features and functionality. It provide Drupal plugins that allow others to create their own authentication mechanisms, request formats, and response formats.
+
+代码库地址：
 
 > Currently all development is happening on github for the useful help of PR's. [https://github.com/kylebrowning/services](https://github.com/kylebrowning/services)
 
 [Drupal Services](https://www.drupal.org/project/services) 模块是为了构造API进而让外部用户能跟Drupal交流通信而产生的标准化解决方案。所有Drupal内核支持的，它也支持。它提供了一个代码层的API，从而使得其他模块能够专注于自己的功能特性。它同时还提供了Drupal插件接口，使得其他开发者能创建自己的授权机制，请求参数格式，以及返回参数格式等。
 
-## 安装
+### 安装
 
 Drupal Services模块依赖于ctools模块，所以在安装Services模块之前需要先安装ctools模块。为了使用Services模块里的Rest Server，还需要先安装Libraries模块以满足依赖。完成这四个模块的安装并启用，下一步我们可以开始配置Services端点了。
 
-## 配置 - 利用默认资源
+### 配置 - 利用默认资源
 
 此处仅限于讨论怎么在不直接登录访问的情况下，获取到Drupal站点的node信息。
 
@@ -45,9 +47,9 @@ Drupal Services模块依赖于ctools模块，所以在安装Services模块之前
 
 这个时候，可以使用Postman来测试API是否构造成功。
 
-### 1. 获取所有node：
+#### 1. 获取所有node
 
-#### 请求：
+##### 请求
 
 ```sh
 GET /drupal-test/api/books/node HTTP/1.1
@@ -55,7 +57,7 @@ Host: localhost
 Cache-Control: no-cache
 ```
 
-#### 返回：
+##### 返回
 
 ```json
 [
@@ -130,9 +132,9 @@ Cache-Control: no-cache
 ]
 ```
 
-### 2. 获取单个node：
+#### 2. 获取单个node
 
-#### 请求：
+##### 请求
 
 ```sh
 GET /drupal-test/api/books/node/1 HTTP/1.1
@@ -140,7 +142,7 @@ Host: localhost
 Cache-Control: no-cache
 ```
 
-#### 返回：
+##### 返回
 
 ```json
 {
